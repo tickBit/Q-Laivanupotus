@@ -4,6 +4,12 @@ Miksi Q-oppiminen? Seuraava (optimaalinen) siirto saadaan Q-taulusta. Vaikeustas
 
 Vaihtoehtoisesti oltaisiin voitu käyttää Q-oppimisen sijaan käyttää tietoa siitä, mihin pelaaja on sijoittanut laivansa ja vastaavasti logaritmisesti "häiritä" optimaalista osumaa..
 
+Vielä kuva pelin tuoksinnasta:
+
+![Peli_kaynnissa](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/c2def446-8caf-4a4b-9a1a-75788093181b)
+
+Toivottavasti houkuttelee kokeilemaan. :)
+
 ## Pelin käynnistäminen
 
 Peli käynnistetään kirjoittamalla komentotulkissa
