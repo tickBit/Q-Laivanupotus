@@ -6,7 +6,7 @@ Vaihtoehtoisesti oltaisiin voitu käyttää Q-oppimisen sijaan käyttää tietoa
 
 Vielä kuva pelin tuoksinnasta:
 
-![Peli_kaynnissa](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/c2def446-8caf-4a4b-9a1a-75788093181b)
+![Peli_kaynnissa](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/1772ef4c-857b-4106-9406-fd709cde23b5)
 
 Toivottavasti houkuttelee kokeilemaan. :)
 
