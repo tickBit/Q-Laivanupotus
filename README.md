@@ -23,6 +23,10 @@ Pelin kehitystyö tehtiin Python 3.10 -ympäristössä. Lähinnä huomioitavaa o
 
 Pelin aikana käytetään kahta pelilautaa. Toinen on tarkoitettu vain AI-agentin Q-taulusta pelaamiseen. Toisella pelilaudalla on ihmispelaajan siirrot. Lautaan kopioidaan myös AI-agentin tekemät siirrot..
 
+Pelissä on neljä vaikeustasoa, joissa AI-agentti parantaa peliään logaritmisesti seuraavan kuvan mukaisesti:
+
+![KUVA_6_Vaikeustaso](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/89ec3887-97d1-4e2a-a825-e4ab2ac92881)
+
 ## Bugit
 
 Mielestäni kerran todistin tilannetta, jossa AI-agentin laivat olivat sijoitettuna osin päällekkäin. Jahka kerkeän, yritän selvittää mikä mahdollisesti meni pieleen..
