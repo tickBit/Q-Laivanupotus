@@ -27,6 +27,8 @@ Pelissä on neljä vaikeustasoa, joissa AI-agentti parantaa peliään logaritmis
 
 ![KUVA_6_Vaikeustaso](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/89ec3887-97d1-4e2a-a825-e4ab2ac92881)
 
+Kuvassa x- ja y-suunnassa osuman häirinnän arvo on siis satunnaisluku väliltä 0..arvo, joka on kuvassa.
+
 ## Bugit
 
 Mielestäni kerran todistin tilannetta, jossa AI-agentin laivat olivat sijoitettuna osin päällekkäin. Jahka kerkeän, yritän selvittää mikä mahdollisesti meni pieleen..
