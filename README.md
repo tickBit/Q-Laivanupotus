@@ -21,6 +21,8 @@ Pelin kehitystyö tehtiin Python 3.10 -ympäristössä. Lähinnä huomioitavaa o
 
 ## Toteutus
 
+Pelissä käytetään satunnaissiementä ja Q-oppiminen käynnistetään grid search -periaatteella etsien optimaalinen Q-taulu..
+
 Pelin aikana käytetään kahta pelilautaa. Toinen on tarkoitettu vain AI-agentin Q-taulusta pelaamiseen. Toisella pelilaudalla on ihmispelaajan siirrot. Lautaan kopioidaan myös AI-agentin tekemät siirrot..
 
 Pelissä on neljä vaikeustasoa, joissa AI-agentti parantaa peliään logaritmisesti seuraavan kuvan mukaisesti:
