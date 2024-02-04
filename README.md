@@ -1,6 +1,6 @@
 # Laivanupotuspeli Q-oppimisella
 
-Miksi Q-oppiminen? Seuraava (optimaalinen) siirto saadaan Q-taulusta. Vaikeustason mukaan tätä "häiritään" x- ja y-suunnissa logaritmisella vähentämisellä sen mukaan, kuinka monta osumaa Q-agentti on saanut pelaajan laivoihin. Näin agentti ei näytä hölmöltä pelin edetessä pidemmälle.
+Miksi Q-oppiminen? Seuraava (optimaalinen) siirto saadaan Q-taulusta. Vaikeustason mukaan tätä "häiritään" x- ja y-suunnissa. Virhe pienenee logaritmisesti sen mukaan, kuinka monta osumaa Q-agentti on saanut pelaajan laivoihin. Näin agentti ei näytä hölmöltä pelin edetessä pidemmälle.
 
 Vaihtoehtoisesti oltaisiin voitu käyttää Q-oppimisen sijaan käyttää tietoa siitä, mihin pelaaja on sijoittanut laivansa ja vastaavasti logaritmisesti "häiritä" optimaalista osumaa..
 
