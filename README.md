@@ -27,7 +27,7 @@ Pelin aikana käytetään kahta pelilautaa. Toinen on tarkoitettu vain AI-agenti
 
 Pelissä on neljä vaikeustasoa, joissa AI-agentti parantaa peliään logaritmisesti seuraavan kuvan mukaisesti:
 
-![KUVA_6_Vaikeustaso](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/89ec3887-97d1-4e2a-a825-e4ab2ac92881)
+![Vaikeustaso](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/47735f65-bd25-4e96-a575-943b1f608062)
 
 Kuvassa x- ja y-suunnassa osuman häirinnän arvo on siis satunnaisluku väliltä 0..arvo, joka on kuvassa.
 
