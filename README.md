@@ -1,14 +1,14 @@
 # Laivanupotuspeli Q-oppimisella
 
-Miksi Q-oppiminen? Seuraava (optimaalinen) siirto saadaan Q-taulusta. Vaikeustason mukaan tätä "häiritään" x- ja y-suunnissa. Virhe pienenee logaritmisesti sen mukaan, kuinka monta osumaa Q-agentti on saanut pelaajan laivoihin. Näin agentti ei näytä hölmöltä pelin edetessä pidemmälle.
+Repossa on kaksi eri peliä laivanupotuksesta Q-oppimisella.
 
-Vaihtoehtoisesti oltaisiin voitu käyttää Q-oppimisen sijaan tietoa siitä, mihin pelaaja on sijoittanut laivansa ja vastaavasti logaritmisesti "häiritä" optimaalista osumaa..
+Laivanupotus.py (johon liittyy lauta.py) on peli, jossa Q-agentille opetetaan peli optimaalisesti aluksi kokonaan. Pelissä on neljä vaikeusastetta, joissa AI-agentti parantaa peliään logaritmisesti seuraavan kuvan mukaisesti:
 
-Vielä kuva pelin tuoksinnasta:
+![Vaikeustaso](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/47735f65-bd25-4e96-a575-943b1f608062)
 
-![Peli_kaynnissa](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/1772ef4c-857b-4106-9406-fd709cde23b5)
+Kuvassa x- ja y-suunnassa osuman häirinnän arvo osumasta on siis satunnaisluku väliltä 0..arvo, joka on kuvassa.
 
-Toivottavasti houkuttelee kokeilemaan. :)
+Toinen peli on Laivanupotus_oppiva.py, jossa Q-agentti oppii pelin aikana pikkuhiljaa pelaamaan..
 
 ## Pelin käynnistäminen
 
@@ -16,26 +16,26 @@ Peli käynnistetään kirjoittamalla komentotulkissa
 
 python Laivanupotus.py
 
-- tarvitsee myös lauta.py-tiedoston ja
-- Meri-ja-laivat.jpg:n
+tai
+
+python Laivanupotus_oppiva.py
+
+- tarvitaan vastaavasti myös lauta.py- tai lauta_oppiva.py-tiedoston ja
+- Meri-ja-laivat.jpg
 
 Kuva on AI:n generoima.
 
 ## Python-ympäristö
 
-Pelin kehitystyö tehtiin Python 3.10 -ympäristössä. Lähinnä huomioitavaa on, että NumPy-kirjastolla voidaan käyttää matriiseille rot90-metodia sekä bitwise and -operaatiota. Kehitysympäristössä käytettiin NumPy:stä versiota 1.24.1. Lisäksi tarvitaan jokin PyGame-kirjaston versio.
+Pelin kehitystyö tehtiin Python 3.11 -ympäristössä. Lähinnä huomioitavaa on, että NumPy-kirjastolla voidaan käyttää matriiseille rot90-metodia sekä bitwise and -operaatiota. Kehitysympäristössä käytettiin NumPy:stä versiota 1.24.1. Lisäksi tarvitaan jokin PyGame-kirjaston versio.
 
-## Toteutus
+## Kuva pelistä
 
-Pelissä käytetään satunnaissiementä ja Q-oppiminen käynnistetään grid search -periaatteella etsien optimaalinen Q-taulu..
+Kuva pelin tuoksinnasta:
 
-Pelin aikana käytetään kahta pelilautaa. Toinen on tarkoitettu vain AI-agentin Q-taulusta pelaamiseen. Toisella pelilaudalla on ihmispelaajan siirrot. Lautaan kopioidaan myös AI-agentin tekemät siirrot..
+![Peli_kaynnissa](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/1772ef4c-857b-4106-9406-fd709cde23b5)
 
-Pelissä on neljä vaikeustasoa, joissa AI-agentti parantaa peliään logaritmisesti seuraavan kuvan mukaisesti:
-
-![Vaikeustaso](https://github.com/tickBit/Q-Laivanupotus/assets/61118857/47735f65-bd25-4e96-a575-943b1f608062)
-
-Kuvassa x- ja y-suunnassa osuman häirinnän arvo on siis satunnaisluku väliltä 0..arvo, joka on kuvassa.
+Toivottavasti houkuttelee kokeilemaan. :)
 
 ## Bugit
 
